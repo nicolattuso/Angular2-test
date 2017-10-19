@@ -50,7 +50,7 @@ describe('AppComponent', function () {
   it('should have expected <h1> text', () => {
     fixture.detectChanges();
     const h1 = de.nativeElement;
-    expect(h1.innerText).toMatch(comp.title,
+    expect(h1.innerText).toMatch('no',
       '<h1> should contain the title');
   });
 });
