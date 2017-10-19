@@ -56,7 +56,7 @@ describe('AppComponent', function () {
 
   it('should have <nav> tag', () => {
     fixture.detectChanges();
-    const nav = fixture.debugElement.query(By.css('nap')).nativeElement;
+    const nav = fixture.debugElement.query(By.css('nav')).nativeElement;
     expect(nav).toBeDefined();
   });
 });
