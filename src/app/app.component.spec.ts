@@ -53,4 +53,10 @@ describe('AppComponent', function () {
     expect(h1.innerText).toMatch(comp.title,
       '<h1> should contain the title');
   });
+
+  it('should have <nav> tag', () => {
+    fixture.detectChanges();
+    const nav = fixture.debugElement.query(By.css('nap')).nativeElement;
+    expect(nav).toBeDefined();
+  });
 });
