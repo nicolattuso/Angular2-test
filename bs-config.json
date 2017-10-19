@@ -1,0 +1,10 @@
+{
+  "open": false,
+  "host": "10.0.0.10",
+  "server": {
+    "baseDir": "src",
+    "routes": {
+      "/node_modules": "node_modules"
+    }
+  }
+}
