@@ -6,7 +6,7 @@ jobs:
      steps:
        - checkout
        - run:
-          command:
+          command: |
             echo "hello world"
             npm install
        - run:
