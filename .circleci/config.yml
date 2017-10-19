@@ -5,4 +5,11 @@ jobs:
        - image: circleci/node:6
      steps:
        - checkout
-       - run: echo "hello world"
+       - run:
+          command:
+            echo "hello world"
+            npm install
+       - run:
+          command: |
+            echo "Running tests"
+            npm test
